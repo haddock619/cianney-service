@@ -1,10 +1,12 @@
+/* Police générale */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     background: #f4f6f9;
     color: #333;
 }
 
+/* Header */
 header {
     background: linear-gradient(90deg, #0d6efd, #0a58ca);
     color: white;
@@ -19,6 +21,7 @@ header {
     margin: 0 auto 15px auto;
 }
 
+/* Navigation */
 nav {
     background: white;
     text-align: center;
@@ -33,6 +36,7 @@ nav a {
     font-weight: bold;
 }
 
+/* Sections */
 section {
     padding: 40px 20px;
     max-width: 1000px;
@@ -52,10 +56,47 @@ h2 {
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
+/* Footer */
 footer {
     text-align: center;
     padding: 20px;
     background: #0d6efd;
     color: white;
     margin-top: 40px;
+}
+
+/* Bouton WhatsApp flottant */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: transform 0.2s;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+}
+
+/* Liens plateformes */
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
 }
