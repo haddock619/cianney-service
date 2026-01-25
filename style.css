@@ -52,3 +52,16 @@ footer {
     color: white;
     margin-top: 40px;
 }
+header {
+    background: linear-gradient(90deg, #0d6efd, #0a58ca);
+    color: white;
+    text-align: center;  /* centre tout : logo, titre, slogan */
+    padding: 40px 20px;
+}
+
+.logo {
+    width: 120px;   /* largeur du logo */
+    height: auto;   /* proportionnel */
+    display: block;
+    margin: 0 auto 15px auto;  /* centre et espace en bas */
+}
