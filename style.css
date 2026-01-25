@@ -12,6 +12,13 @@ header {
     padding: 40px 20px;
 }
 
+.logo {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
 nav {
     background: white;
     text-align: center;
@@ -51,24 +58,4 @@ footer {
     background: #0d6efd;
     color: white;
     margin-top: 40px;
-}
-header {
-    background: linear-gradient(90deg, #0d6efd, #0a58ca);
-    color: white;
-    text-align: center;  /* centre tout : logo, titre, slogan */
-    padding: 40px 20px;
-}
-
-.logo {
-    width: 120px;   /* largeur du logo */
-    height: auto;   /* proportionnel */
-    display: block;
-    margin: 0 auto 15px auto;  /* centre et espace en bas */
-}
-/* Style du logo FAMILLE SENDWE */
-.logo {
-    width: 120px;
-    height: auto;
-    display: block;
-    margin: 0 auto 15px auto; /* centre le logo avec un petit espace en dessous */
 }
