@@ -65,3 +65,10 @@ header {
     display: block;
     margin: 0 auto 15px auto;  /* centre et espace en bas */
 }
+/* Style du logo FAMILLE SENDWE */
+.logo {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto; /* centre le logo avec un petit espace en dessous */
+}
